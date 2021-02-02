@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/ilayda/.dotnet/store/|arch|/|tfm|",
+      "/Users/ilayda/.nuget/packages"
+    ]
+  }
+}

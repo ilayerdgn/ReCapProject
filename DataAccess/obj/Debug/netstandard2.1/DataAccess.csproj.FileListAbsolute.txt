@@ -1,0 +1,12 @@
+/Users/ilayda/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.deps.json
+/Users/ilayda/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.dll
+/Users/ilayda/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/DataAccess.pdb
+/Users/ilayda/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Entities.dll
+/Users/ilayda/Projects/ReCapProject/DataAccess/bin/Debug/netstandard2.1/Entities.pdb
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csprojAssemblyReference.cache
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.AssemblyInfoInputs.cache
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.AssemblyInfo.cs
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csproj.CoreCompileInputs.cache
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.csproj.CopyComplete
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.dll
+/Users/ilayda/Projects/ReCapProject/DataAccess/obj/Debug/netstandard2.1/DataAccess.pdb

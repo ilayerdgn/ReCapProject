@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{016A1663-75A5-49C8-A3F8-AAD7ABD952B1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
+    <Files>
+      <File FileName="ConsoleUI/Program.cs" Line="18" Column="6" />
+      <File FileName="Entities/Concrete/Car.cs" />
+      <File FileName="Entities/Abstract/IEntitiy.cs" />
+      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="13" Column="17" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="60" Column="1" />
+      <File FileName="Business/Abstract/ICarService.cs" Line="8" Column="6" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="12" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReCapProject" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="ConsoleUI" expanded="True" selected="True" />
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="InMemory" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,9 +1,9 @@
 ﻿using System;
-using Entities.Abstract;
+using Core.Entities;
 
 namespace Entities.Concrete
 {
-    public class Car:IEntitiy
+    public class Car:IEntity
 
     {
         public int CarId { get; set; }
@@ -11,6 +11,6 @@ namespace Entities.Concrete
         public int ColorId { get; set; }
         public int ModelYear { get; set; }
         public int DailyPrice { get; set; }
-        public string Description { get; set; }
+        public string CDescription { get; set; }
     }
 }

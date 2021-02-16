@@ -7,3 +7,6 @@
 /Users/ilayda/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.csproj.CoreCompileInputs.cache
 /Users/ilayda/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.dll
 /Users/ilayda/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.pdb
+/Users/ilayda/Projects/ReCapProject/Entities/bin/Debug/netstandard2.1/Core.dll
+/Users/ilayda/Projects/ReCapProject/Entities/bin/Debug/netstandard2.1/Core.pdb
+/Users/ilayda/Projects/ReCapProject/Entities/obj/Debug/netstandard2.1/Entities.csproj.CopyComplete

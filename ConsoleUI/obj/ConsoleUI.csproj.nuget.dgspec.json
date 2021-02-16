@@ -125,6 +125,64 @@
         }
       }
     },
+    "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj",
+        "projectName": "Core",
+        "projectPath": "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj",
+        "packagesPath": "/Users/ilayda/.nuget/packages/",
+        "outputPath": "/Users/ilayda/Projects/ReCapProject/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ilayda/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/ilayda/Projects/ReCapProject/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -147,6 +205,9 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
+              "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj": {
+                "projectPath": "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj"
+              },
               "/Users/ilayda/Projects/ReCapProject/Entities/Entities.csproj": {
                 "projectPath": "/Users/ilayda/Projects/ReCapProject/Entities/Entities.csproj"
               }
@@ -162,6 +223,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -202,7 +269,11 @@
         "frameworks": {
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj": {
+                "projectPath": "/Users/ilayda/Projects/ReCapProject/Core/Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

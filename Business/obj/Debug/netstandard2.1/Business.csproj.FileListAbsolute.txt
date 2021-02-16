@@ -12,3 +12,5 @@
 /Users/ilayda/Projects/ReCapProject/Business/obj/Debug/netstandard2.1/Business.csproj.CopyComplete
 /Users/ilayda/Projects/ReCapProject/Business/obj/Debug/netstandard2.1/Business.dll
 /Users/ilayda/Projects/ReCapProject/Business/obj/Debug/netstandard2.1/Business.pdb
+/Users/ilayda/Projects/ReCapProject/Business/bin/Debug/netstandard2.1/Core.dll
+/Users/ilayda/Projects/ReCapProject/Business/bin/Debug/netstandard2.1/Core.pdb

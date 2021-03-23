@@ -10,19 +10,23 @@
       <File FileName="Core/Utilities/Results/ErrorResult.cs" Line="9" Column="10" />
       <File FileName="Business/Constants/Messages.cs" Line="8" Column="71" />
       <File FileName="Core/Utilities/Results/IDataResult.cs" Line="6" Column="24" />
+      <File FileName="Business/Abstract/IBrandService.cs" Line="15" Column="16" />
+      <File FileName="Business/Abstract/IColorService.cs" Line="14" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
+              <Node name="Abstract" expanded="True">
+                <Node name="IColorService.cs" selected="True" />
+              </Node>
               <Node name="Concrete" expanded="True" />
               <Node name="Constants" expanded="True" />
             </Node>
             <Node name="Core" expanded="True">
               <Node name="Utilities" expanded="True">
-                <Node name="Results" expanded="True" selected="True" />
+                <Node name="Results" expanded="True" />
               </Node>
             </Node>
             <Node name="DataAccess" expanded="True">

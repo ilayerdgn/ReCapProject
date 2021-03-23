@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -15,14 +17,15 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void Add(Car car)
+        public IResult Add(Car car)
         {
-            if (car.CDescription.Length > 2 && car.DailyPrice > 0)
+            if (car.CDescription.Length < 3)
             {
-                _carDal.Add(car);
+                return new ErrorResult(Messages.DescriptionInvalid);
             }
-
-            Console.WriteLine("Ekleme başarısız.");
+            _carDal.Add(car);
+            return new SuccessResult(Messages.Added);
+           
         }
 
         public void Delete(Car car)
@@ -33,6 +36,12 @@ namespace Business.Concrete
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
+        }
+
+        public Car GetById(int carId)
+        {
+            return _carDal.Get(p => p.CarId == carId);
+
         }
 
         public List<CarDetailDto> GetCarDetails()

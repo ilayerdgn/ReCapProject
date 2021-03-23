@@ -1,42 +1,29 @@
 ﻿<Properties StartupConfiguration="{016A1663-75A5-49C8-A3F8-AAD7ABD952B1}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Business/Concrete/BrandManager.cs" Line="38" Column="40" />
-      <File FileName="Business/Concrete/ColorManager.cs" Line="39" Column="13" />
-      <File FileName="Business/Abstract/ICarService.cs" Line="14" Column="37" />
-      <File FileName="ConsoleUI/Program.cs" Line="16" Column="10" />
-      <File FileName="Entities/DTOs/CarDetailDto.cs" Line="12" Column="9" />
-      <File FileName="Core/Entities/IDto.cs" Line="2" Column="2" />
-      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="75" Column="43" />
-      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="1" Column="1" />
-      <File FileName="Core/Entities/IEntity.cs" Line="1" Column="1" />
-      <File FileName="Core/DataAccess/IEntityRepository.cs" Line="15" Column="9" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="46" Column="41" />
-      <File FileName="Business/Concrete/CarManager.cs" Line="20" Column="22" />
-      <File FileName="Business/Abstract/IBrandService.cs" Line="14" Column="32" />
-      <File FileName="Business/Abstract/IColorService.cs" Line="13" Column="26" />
-      <File FileName="DataAccess/Abstract/IBrandDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IColorDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="24" Column="120" />
-      <File FileName="Entities/Concrete/Car.cs" Line="17" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfColorDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfBrandDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/CarRentContext.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="27" Column="54" />
+      <File FileName="Core/Utilities/Results/IResult.cs" />
+      <File FileName="Core/Utilities/Results/Result.cs" />
+      <File FileName="Business/Abstract/ICarService.cs" Line="22" Column="1" />
+      <File FileName="Core/Utilities/Results/SuccessResult.cs" Line="16" Column="2" />
+      <File FileName="Entities/Concrete/Car.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilities/Results/ErrorResult.cs" Line="9" Column="10" />
+      <File FileName="Business/Constants/Messages.cs" Line="8" Column="71" />
+      <File FileName="Core/Utilities/Results/IDataResult.cs" Line="6" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True" selected="True">
+          <Node name="ReCapProject" expanded="True">
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="Constants" expanded="True" />
             </Node>
-            <Node name="ConsoleUI" expanded="True" />
             <Node name="Core" expanded="True">
-              <Node name="DataAccess" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
+              <Node name="Utilities" expanded="True">
+                <Node name="Results" expanded="True" selected="True" />
               </Node>
-              <Node name="Entities" expanded="True" />
             </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Abstract" expanded="True" />

@@ -11,21 +11,46 @@ namespace ConsoleUI
         {
             //CarTest();
 
-            CarDetailTest();
+            //CarDetailTest();
+            RentalDetailTest();
+        }
 
+        private static void RentalDetailTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.GetRentalDetails();
+            if (result.Success == true)
+            {
+                foreach (var rental in result.Data)
+                {
+                    Console.WriteLine(rental.RentalId + "------" + rental.CarName + "------" + rental.CustomerName + "------" + rental.CustomerSurname + "------" + rental.RentDate + "------" + rental.ReturnDate);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
         }
 
         private static void CarDetailTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            carManager.GetCarDetails();
-            foreach (var car in carManager.GetCarDetails())
+            var result = carManager.GetCarDetails();
+
+            if (result.Success == true)
             {
-                Console.WriteLine(car.CarId + "----" + car.BrandName + "----" + car.ColorName + "----" + car.DailyPrice);
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine(car.CarId + "----" + car.BrandName + "----" + car.ColorName + "----" + car.DailyPrice);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
         }
 
-        private static void CarTest()
+        /*private static void CarTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
 
@@ -33,6 +58,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine(car.CDescription);
             }
-        }
+        }*/
     }
 }

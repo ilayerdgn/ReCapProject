@@ -9,7 +9,7 @@ namespace DataAccess.Abstract
 {
     public interface IRentalDal : IEntityRepository<Rental>
     {
-        IDataResult<List<RentalDetailDto>> GetRentalDetails();
+       List<RentalDetailDto> GetRentalDetails();
 
 
     }

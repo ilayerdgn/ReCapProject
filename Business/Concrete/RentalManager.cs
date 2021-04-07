@@ -19,15 +19,11 @@ namespace Business.Concrete
         }
         public IResult Add(Rental rental)
         {
-            if (rental.RentDate == null)
-            {
+            
                 _rentalDal.Add(rental);
                 return new SuccessResult(Messages.RentSuccess);
-            }
-            else
-            {
-                return new ErrorResult(Messages.NotAvailable);
-            }
+         
+            
         }
 
         public IResult Delete(Rental rental)

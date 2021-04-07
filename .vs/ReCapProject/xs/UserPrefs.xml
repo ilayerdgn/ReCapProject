@@ -1,19 +1,12 @@
-﻿<Properties StartupConfiguration="{016A1663-75A5-49C8-A3F8-AAD7ABD952B1}|Default">
-  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+﻿<Properties StartupConfiguration="{C16D6FB7-59C3-4A49-940D-D1A203B6A6B0}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Entities/DTOs/RentalDetailDto.cs" Line="8" Column="26" IsPinned="True" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="30" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfRentalDal.cs" Line="27" Column="55" />
-      <File FileName="Entities/Concrete/Brand.cs" Line="1" Column="1" />
-      <File FileName="Entities/Concrete/Rental.cs" Line="9" Column="26" />
-      <File FileName="Entities/Concrete/Customer.cs" Line="8" Column="28" />
-      <File FileName="Core/Entities/Concrete/User.cs" Line="6" Column="24" />
-      <File FileName="Entities/Concrete/Car.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/CarRentContext.cs" Line="27" Column="2" />
-      <File FileName="Entities/DTOs/CarDetailDto.cs" Line="1" Column="1" />
-      <File FileName="Business/Concrete/CustomerManager.cs" Line="37" Column="74" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfUserDal.cs" Line="28" Column="1" />
+      <File FileName="WebAPI/Controllers/CarsController.cs" Line="27" Column="10" />
+      <File FileName="Business/Abstract/IRentalService.cs" Line="6" Column="1" />
+      <File FileName="Business/Abstract/ICarService.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="1" Column="1" />
+      <File FileName="Business/Abstract/ICustomerService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,25 +15,25 @@
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-              <Node name="Constants" expanded="True" />
             </Node>
-            <Node name="ConsoleUI" expanded="True" />
             <Node name="Core" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Concrete" expanded="True" />
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="EfUserDal.cs" selected="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
-              <Node name="DTOs" expanded="True" />
+            </Node>
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomersController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

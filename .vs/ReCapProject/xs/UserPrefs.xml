@@ -3,25 +3,29 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="WebAPI/Controllers/CarsController.cs" Line="27" Column="10" />
-      <File FileName="Business/Abstract/IRentalService.cs" Line="6" Column="1" />
-      <File FileName="Business/Abstract/ICarService.cs" Line="1" Column="1" />
-      <File FileName="Business/Concrete/CarManager.cs" Line="1" Column="1" />
-      <File FileName="Business/Abstract/ICustomerService.cs" Line="1" Column="1" />
+      <File FileName="Business/Abstract/IRentalService.cs" />
+      <File FileName="Business/Abstract/ICarService.cs" />
+      <File FileName="Business/Concrete/CarManager.cs" />
+      <File FileName="Business/Abstract/ICustomerService.cs" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="27" Column="63" />
+      <File FileName="WebAPI/Startup.cs" Line="33" Column="46" />
+      <File FileName="WebAPI/Program.cs" Line="27" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
             <Node name="Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="Autofac" expanded="True" />
+              </Node>
             </Node>
             <Node name="Core" expanded="True">
               <Node name="DataAccess" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
-            <Node name="DataAccess" expanded="True">
+            <Node name="DataAccess" expanded="True" selected="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
                 <Node name="EntityFramework" expanded="True" />
@@ -31,9 +35,7 @@
               <Node name="Concrete" expanded="True" />
             </Node>
             <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CustomersController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>

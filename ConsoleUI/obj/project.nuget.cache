@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "t7l5losqxUsYN4CuNspA+h4IByhMOev74J70MFJDVOK1GwOPa0wyKLqmIhsfV1tQcxDFLBRQOIoxQyT+WnlXBw==",
+  "dgSpecHash": "B8aFLfpkYZwKnQ7woh4BWbcNQq/mM5m0dxAh3aZgPHlPtO0wbO/Sk5dFewwTatSk6iswofAS8bM3IQwnj3OU4Q==",
   "success": true,
   "projectFilePath": "/Users/ilayda/Projects/ReCapProject/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
     "/Users/ilayda/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/ilayda/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/ilayda/.nuget/packages/fluentvalidation/10.0.1/fluentvalidation.10.0.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

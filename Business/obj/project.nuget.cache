@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "NU+eGGMCb/lmvAzW4vVN0M7/tEi8BtPeuMZVM9NcNl93BHal4lWhO6ol3kFqDuwnahZK9ffIJR39iks9C5/U0Q==",
+  "dgSpecHash": "DhkS31SzJHpNjmNWyLtFsupZo1YPNFy9fFYDEO+WM0XtMCO3GDeehNgAgYXKf46veVo5YYP+4cG8xdh9EKTbzQ==",
   "success": true,
   "projectFilePath": "/Users/ilayda/Projects/ReCapProject/Business/Business.csproj",
   "expectedPackageFiles": [
     "/Users/ilayda/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
+    "/Users/ilayda/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/autofac.extras.dynamicproxy/6.0.0/autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/castle.core/4.4.0/castle.core.4.4.0.nupkg.sha512",
+    "/Users/ilayda/.nuget/packages/fluentvalidation/10.0.1/fluentvalidation.10.0.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/ilayda/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

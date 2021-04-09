@@ -2,41 +2,49 @@
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="WebAPI/Controllers/CarsController.cs" Line="27" Column="10" />
-      <File FileName="Business/Abstract/IRentalService.cs" />
-      <File FileName="Business/Abstract/ICarService.cs" />
-      <File FileName="Business/Concrete/CarManager.cs" />
-      <File FileName="Business/Abstract/ICustomerService.cs" />
-      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="27" Column="63" />
-      <File FileName="WebAPI/Startup.cs" Line="33" Column="46" />
-      <File FileName="WebAPI/Program.cs" Line="27" Column="69" />
+      <File FileName="Business/ValidationRules/FluentValidation/BrandValidator.cs" Line="11" Column="50" />
+      <File FileName="Business/ValidationRules/FluentValidation/ColorValidator.cs" Line="11" Column="50" />
+      <File FileName="Business/ValidationRules/FluentValidation/CustomerValidator.cs" Line="12" Column="13" />
+      <File FileName="Business/ValidationRules/FluentValidation/RentalValidator.cs" Line="18" Column="1" />
+      <File FileName="Entities/Concrete/Rental.cs" Line="13" Column="22" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="26" Column="49" />
+      <File FileName="Business/ValidationRules/FluentValidation/CarValidator.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Business/Concrete/ColorManager.cs" Line="20" Column="48" NotebookId="1" />
+      <File FileName="Business/Concrete/CustomerManager.cs" Line="22" Column="10" NotebookId="1" />
+      <File FileName="Business/Concrete/RentalManager.cs" Line="22" Column="1" NotebookId="1" />
+      <File FileName="Business/Concrete/BrandManager.cs" Line="20" Column="1" NotebookId="1" />
+      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" Line="19" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
             <Node name="Business" expanded="True">
+              <Node name="Concrete" expanded="True" />
               <Node name="DependencyResolvers" expanded="True">
                 <Node name="Autofac" expanded="True" />
               </Node>
+              <Node name="ValidationRules" expanded="True">
+                <Node name="FluentValidation" expanded="True" />
+              </Node>
             </Node>
             <Node name="Core" expanded="True">
-              <Node name="DataAccess" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
+              <Node name="Aspects" expanded="True">
+                <Node name="Autofac" expanded="True">
+                  <Node name="Validation" expanded="True" />
+                </Node>
               </Node>
-            </Node>
-            <Node name="DataAccess" expanded="True" selected="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
+              <Node name="CrossCuttingConcerns" expanded="True">
+                <Node name="Validation" expanded="True">
+                  <Node name="ValidationTool.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Utilities" expanded="True" />
             </Node>
             <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
             </Node>
-            <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="WebAPI" expanded="True" />
           </Node>
         </State>
       </Pad>
